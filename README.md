@@ -15,7 +15,7 @@ To run this game locally, follow these steps:
 
 1. **Clone the repository** (or download the files directly):
    ```bash
-   git clone https://github.com/redeye/F2P-Sim.git
+   git clone https://github.com/redeye/RPG-JS.git
    ```
 
 2. **Open the game**:
