@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# RPG-JS
-Experiment with client side rogue like RPG
-=======
 # Simple 2D RPG Game
 
 A simple 2D RPG game built using **HTML**, **CSS**, and **JavaScript**. The game features dungeon crawling, combat with enemies, and progressing through levels as the player gains experience and levels up.
@@ -82,5 +78,3 @@ Feel free to submit issues or pull requests to improve the game. Contributions a
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
->>>>>>> b0ef954 (Initialise)
