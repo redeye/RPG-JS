@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Procedural RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Player Stats -->
+        <div id="player-stats">
+            <h2>Player Stats</h2>
+            <p>Health: <span id="player-health">100</span></p>
+            <p>Attack: <span id="player-attack">10</span></p>
+            <p>Defense: <span id="player-defense">5</span></p>
+            <p>XP: <span id="player-xp">0 / 100 XP</span></p>
+            <p>Level: <span id="player-level">1</span></p>
+        </div>
+
+        <!-- Game Grid -->
+        <div id="game-grid">
+            <!-- Map grid will be dynamically generated here -->
+        </div>
+
+        <!-- Inventory -->
+        <div id="inventory">
+            <h3>Inventory</h3>
+            <p id="inventory-list">Empty</p>
+        </div>
+
+        <!-- Spellbook -->
+        <div id="spellbook">
+            <h3>Spellbook</h3>
+            <p id="spellbook-list">Fire, Water, Earth</p>
+        </div>
+
+        <!-- Status Area -->
+        <div id="status-area">
+            <h3>Status</h3>
+            <p id="status-message">Welcome to the adventure! Use arrow keys to move.</p>
+        </div>
+
+        <!-- Dungeon Info -->
+        <div id="dungeon-info">
+            <h3>Dungeon Progress</h3>
+            <p id="dungeon-number">Dungeon: 1</p>
+        </div>
+
+<!-- Battle Interface -->
+<div id="battle-interface" style="display: none;">
+    <!-- Player Info -->
+    <div id="player-info">
+        <h3 id="player-name"></h3>
+        <div id="player-health-bar">
+            <div id="player-health-fill"></div>
+        </div>
+        <div id="player-status-effects"></div>
+    </div>
+
+    <!-- Enemy Info -->
+    <div id="enemy-info">
+        <h3 id="enemy-name"></h3>
+        <div id="enemy-health-bar">
+            <div id="enemy-health-fill"></div>
+        </div>
+        <div id="enemy-status-effects"></div>
+    </div>
+
+    <!-- Battle Options -->
+    <div id="battle-options"></div>
+
+    <!-- Battle Log -->
+    <div id="battle-log"></div>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
